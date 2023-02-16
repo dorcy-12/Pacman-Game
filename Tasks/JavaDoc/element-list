@@ -1,0 +1,7 @@
+module:de.bp.pacman
+de.bp.pacman
+de.bp.pacman.options
+de.bp.pacman.ui
+de.bp.pacman.ui.controllers
+de.bp.pacman.ui.fieldtype
+task1

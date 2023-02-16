@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.bp.pacman.ui.controllers.HighscoreController">
+    <top>
+        <HBox alignment="CENTER" prefHeight="78.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets right="8.0" top="19.0" />
+            </padding>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="RANK">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </Text>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="66.0" prefWidth="174.0">
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="HIGH SCORE">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Text>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="NAME">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Text>
+            </VBox>
+        </HBox>
+    </top>
+    <center>
+        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <Text fill="YELLOW" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="THE 10 BEST PLAYERS">
+                <font>
+                    <Font size="22.0" />
+                </font>
+                <VBox.margin>
+                    <Insets top="14.0" />
+                </VBox.margin>
+            </Text>
+            <HBox alignment="TOP_CENTER" prefHeight="397.0" prefWidth="400.0" spacing="10.0">
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="18.0">
+                   <Text fill="#fc0404" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="1ST">
+                       <font>
+                           <Font size="18.0" />
+                       </font>
+                   </Text>
+                    <Text fill="#fcbcfc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="2ND">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fill="#38fffc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="3RD">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fill="#fcbc54" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="4TH">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fill="YELLOW" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="5TH">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fill="#fc0404" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="6TH">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fill="#fcbcfc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="7TH">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fill="#38fffc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="8TH">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fill="#fcbc54" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="9TH">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fill="YELLOW" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="10TH">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="18.0">
+                   <Text fx:id="firstScore" fill="#fc0404" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                       <font>
+                           <Font size="18.0" />
+                       </font>
+                   </Text>
+                    <Text fx:id="secondScore" fill="#fcbcfc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="thirdScore" fill="#38fffc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="fourthScore" fill="#fcbc54" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="fifthScore" fill="YELLOW" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="sixthScore" fill="#fc0404" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="seventhScore" fill="#fcbcfc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="eighthScore" fill="#38fffc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="ninthScore" fill="#fcbc54" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="tenthScore" fill="YELLOW" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="0">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="18.0">
+                   <Text fx:id="firstName" fill="#fc0404" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                       <font>
+                           <Font size="18.0" />
+                       </font>
+                   </Text>
+                    <Text fx:id="secondName" fill="#fcbcfc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="thirdName" fill="#38fffc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="fourthName" fill="#fcbc54" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="fifthName" fill="YELLOW" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="sixthName" fill="#fc0404" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="seventhName" fill="#fcbcfc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="eighthName" fill="#38fffc" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="ninthName" fill="#fcbc54" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="tenthName" fill="YELLOW" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tt" text="-">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Text>
+                </VBox>
+            </HBox>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox prefHeight="74.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+            <padding>
+                <Insets left="20.0" />
+            </padding>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#backbuttonpressed" style="-fx-background-color: None; -fx-font-size: 25px;" styleClass="tt" text="Back" textAlignment="CENTER" textFill="YELLOW">
+                <font>
+                    <Font size="25.0" />
+                </font>
+                <cursor>
+                    <Cursor fx:constant="HAND" />
+                </cursor>
+            </Button>
+        </HBox>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Levels>
+    <level nr="1" width="20" height="20">
+        <spawnpoint x="13" y="7"></spawnpoint>
+        <fixedpoint x="10" y="11"></fixedpoint>
+        <ghosts number="5">
+            <ghost spawnx="3" spawny="1" color="red"></ghost>
+            <ghost spawnx="9" spawny="4" color="yellow"></ghost>
+            <ghost spawnx="18" spawny="12" color="pink"></ghost>
+            <ghost spawnx="3" spawny="14" color="blue"></ghost>
+            <ghost spawnx="10" spawny="8" color="green"></ghost>
+        </ghosts>
+        <field>
+            <col nr="0">B,B,B,B,B,B,B,B,B,B,B,B,B,B,P,B,B,B,B,B</col>
+            <col nr="1">B,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,B</col>
+            <col nr="2">B,P,B,B,B,B,B,B,B,B,B,B,B,B,P,B,P,B,P,B</col>
+            <col nr="3">B,P,B,B,B,B,B,B,B,B,B,B,B,B,P,B,P,B,P,B</col>
+            <col nr="4">B,P,P,P,P,P,P,P,P,P,P,P,P,P,U,B,U,B,P,B</col>
+            <col nr="5">B,P,B,B,B,B,B,B,B,B,B,B,B,P,B,B,B,B,P,B</col>
+            <col nr="6">B,P,P,P,P,P,P,P,P,P,P,P,B,P,B,P,P,P,P,B</col>
+            <col nr="7">B,P,B,P,B,P,B,P,B,P,B,P,B,P,B,P,B,B,P,B</col>
+            <col nr="8">B,P,B,P,B,P,B,U,B,P,B,P,B,P,B,P,P,P,P,B</col>
+            <col nr="9">B,P,B,P,P,P,B,P,B,P,B,P,B,P,B,P,B,B,P,B</col>
+            <col nr="10">B,P,B,B,B,B,B,P,B,P,B,P,B,P,B,P,B,B,P,B</col>
+            <col nr="11">B,P,P,P,P,P,P,P,B,P,B,P,B,P,B,P,B,B,P,B</col>
+            <col nr="12">B,P,B,B,B,P,B,P,B,P,B,P,P,P,B,U,B,B,P,B</col>
+            <col nr="13">B,P,P,U,P,P,B,P,B,P,B,P,B,P,B,P,B,B,P,B</col>
+            <col nr="14">B,P,B,B,B,P,B,P,B,P,B,P,B,P,B,P,P,P,P,B</col>
+            <col nr="15">B,P,B,B,B,P,B,P,B,P,P,P,B,P,B,P,B,B,P,B</col>
+            <col nr="16">P,P,B,B,B,P,B,P,P,P,B,P,B,P,B,P,B,B,P,P</col>
+            <col nr="17">B,P,B,B,B,P,B,B,B,B,B,P,B,P,B,B,B,B,P,B</col>
+            <col nr="18">B,P,P,P,P,P,P,P,P,P,U,P,P,P,P,P,P,P,P,B</col>
+            <col nr="19">B,B,B,B,B,B,B,B,B,B,B,B,B,B,P,B,B,B,B,B</col>
+        </field>
+    </level>
+    <level nr="2" width="19" height="22">
+        <spawnpoint x="9" y="16"></spawnpoint>
+        <fixedpoint x="9" y="10"></fixedpoint>
+        <ghosts number="4">
+            <ghost spawnx="8" spawny="9" color="red"></ghost>
+            <ghost spawnx="8" spawny="9" color="yellow"></ghost>
+            <ghost spawnx="10" spawny="9" color="pink"></ghost>
+            <ghost spawnx="10" spawny="9" color="blue"></ghost>
+        </ghosts>
+        <field>
+            <col nr="0">B,B,B,B,B,B,B,B,B,B,P,B,B,B,B,B,B,B,B,B,B,B</col>
+            <col nr="1">B,P,P,U,P,P,P,B,B,B,P,B,B,B,P,P,U,B,P,P,P,B</col>
+            <col nr="2">B,P,B,B,P,B,P,B,B,B,P,B,B,B,P,B,P,P,P,B,P,B</col>
+            <col nr="3">B,P,B,B,P,B,P,B,B,B,P,B,B,B,P,B,B,B,P,B,P,B</col>
+            <col nr="4">B,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,B,P,B</col>
+            <col nr="5">B,P,B,B,P,B,B,B,B,B,P,B,B,B,P,B,P,B,B,B,P,B</col>
+            <col nr="6">B,P,B,B,P,P,P,B,P,P,P,P,P,P,P,B,P,P,P,B,P,B</col>
+            <col nr="7">B,P,B,B,P,B,P,B,P,B,B,B,P,B,P,B,P,B,P,B,P,B</col>
+            <col nr="8">B,P,P,P,P,B,P,P,P,B,E,B,P,B,P,P,P,B,P,P,P,B</col>
+            <col nr="9">B,B,B,B,P,B,B,B,P,E,E,B,P,B,B,B,P,B,B,B,P,B</col>
+            <col nr="10">B,P,P,P,P,B,P,P,P,B,E,B,P,B,P,P,P,B,P,P,P,B</col>
+            <col nr="11">B,P,B,B,P,B,P,B,P,B,B,B,P,B,P,B,P,B,P,B,P,B</col>
+            <col nr="12">B,P,B,B,P,P,P,B,P,P,P,P,P,P,P,B,P,P,P,B,P,B</col>
+            <col nr="13">B,P,B,B,P,B,B,B,B,B,P,B,B,B,P,B,P,B,B,B,P,B</col>
+            <col nr="14">B,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,B,P,B</col>
+            <col nr="15">B,P,B,B,P,B,P,B,B,B,P,B,B,B,P,B,B,B,P,B,P,B</col>
+            <col nr="16">B,P,B,B,P,B,P,B,B,B,P,B,B,B,P,B,P,P,P,B,P,B</col>
+            <col nr="17">B,P,P,U,P,P,P,B,B,B,P,B,B,B,P,P,U,B,P,P,P,B</col>
+            <col nr="18">B,B,B,B,B,B,B,B,B,B,P,B,B,B,B,B,B,B,B,B,B,B</col>
+        </field>
+    </level>
+    <level nr="3" width="20" height="25">
+        <spawnpoint x="10" y="6"></spawnpoint>
+        <fixedpoint x="10" y="15"></fixedpoint>
+        <ghosts number="8">
+            <ghost spawnx="4" spawny="2" color="red"></ghost>
+            <ghost spawnx="10" spawny="4" color="yellow"></ghost>
+            <ghost spawnx="4" spawny="8" color="pink"></ghost>
+            <ghost spawnx="15" spawny="10" color="blue"></ghost>
+            <ghost spawnx="3" spawny="15" color="red"></ghost>
+            <ghost spawnx="15" spawny="16" color="yellow"></ghost>
+            <ghost spawnx="7" spawny="21" color="pink"></ghost>
+            <ghost spawnx="18" spawny="23" color="green"></ghost>
+        </ghosts>
+        <field>
+            <col nr="0">B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,U,B,B,P,B,B</col>
+            <col nr="1">B,P,P,P,U,B,U,B,P,B,B,B,P,P,P,P,P,P,P,P,P,P,P,P,B</col>
+            <col nr="2">B,P,B,B,P,B,P,B,P,P,P,P,P,B,P,B,B,B,B,B,B,B,B,P,B</col>
+            <col nr="3">B,P,B,B,P,B,P,B,P,B,P,B,P,B,P,P,P,P,P,P,P,P,P,P,B</col>
+            <col nr="4">B,P,P,P,P,B,P,P,P,B,P,B,P,B,B,P,B,P,B,P,B,B,B,P,B</col>
+            <col nr="5">B,P,B,B,P,B,P,B,B,B,P,B,P,B,P,P,B,P,B,P,B,B,B,P,B</col>
+            <col nr="6">P,P,B,B,P,B,P,B,B,B,P,B,P,B,B,P,B,P,B,P,P,P,P,P,P</col>
+            <col nr="7">B,P,P,P,P,B,P,B,B,B,P,P,P,B,P,P,B,P,B,P,B,P,B,P,B</col>
+            <col nr="8">B,P,B,B,B,B,P,P,P,B,P,B,B,B,P,B,B,U,B,P,B,P,B,P,B</col>
+            <col nr="9">B,P,P,P,P,B,P,B,P,B,P,P,U,B,P,P,B,B,B,P,B,P,B,P,B</col>
+            <col nr="10">B,B,B,B,P,B,P,B,P,B,P,B,B,B,B,P,B,P,P,P,B,P,B,U,B</col>
+            <col nr="11">B,P,P,P,P,B,P,B,P,B,P,P,U,B,P,P,B,P,B,P,P,P,B,P,B</col>
+            <col nr="12">B,P,B,B,B,B,P,B,P,B,P,B,B,B,P,B,B,P,B,B,B,P,P,P,B</col>
+            <col nr="13">B,P,P,P,P,B,P,P,P,B,P,B,B,B,P,B,B,B,P,P,P,P,B,P,B</col>
+            <col nr="14">B,P,B,B,P,B,P,B,P,B,P,B,B,B,P,B,U,B,P,B,B,P,B,P,B</col>
+            <col nr="15">B,P,B,B,P,B,P,B,P,P,P,P,P,B,P,B,P,B,P,B,B,P,B,P,B</col>
+            <col nr="16">B,P,P,P,P,P,P,B,B,B,B,B,P,B,P,B,P,B,U,P,P,P,B,P,P</col>
+            <col nr="17">B,P,B,B,P,B,P,B,P,P,P,P,P,B,P,B,P,B,B,B,B,P,B,P,B</col>
+            <col nr="18">B,P,U,B,P,B,P,P,P,B,B,B,P,B,P,P,P,P,P,P,P,P,P,P,B</col>
+            <col nr="19">B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,P,B,B,P,B,B</col>
+        </field>
+    </level>
+    <level nr="4" width="26" height="20">
+        <spawnpoint x="9" y="11"></spawnpoint>
+        <fixedpoint x="15" y="11"></fixedpoint>
+        <ghosts number="8">
+            <ghost spawnx="5" spawny="2" color="red"></ghost>
+            <ghost spawnx="16" spawny="4" color="yellow"></ghost>
+            <ghost spawnx="3" spawny="7" color="pink"></ghost>
+            <ghost spawnx="13" spawny="10" color="blue"></ghost>
+            <ghost spawnx="22" spawny="10" color="red"></ghost>
+            <ghost spawnx="3" spawny="13" color="yellow"></ghost>
+            <ghost spawnx="16" spawny="15" color="pink"></ghost>
+            <ghost spawnx="23" spawny="18" color="green"></ghost>
+        </ghosts>
+        <field>
+            <col nr="0">B,B,B,B,B,B,B,B,B,B,B,B,B,B,P,B,B,B,B,B</col>
+            <col nr="1">B,U,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,B</col>
+            <col nr="2">B,P,B,B,B,P,B,B,P,B,B,P,B,B,B,B,B,B,P,B</col>
+            <col nr="3">B,P,B,B,B,P,B,P,P,B,B,P,B,P,P,P,P,P,P,B</col>
+            <col nr="4">B,P,B,B,B,P,B,B,P,P,P,P,B,P,B,P,B,B,P,B</col>
+            <col nr="5">B,P,P,P,P,P,P,B,B,P,B,P,B,P,B,P,B,B,P,B</col>
+            <col nr="6">B,B,B,B,B,B,P,P,B,P,B,P,B,P,B,U,P,P,P,B</col>
+            <col nr="7">B,P,P,P,B,B,P,B,B,P,B,P,B,P,B,B,B,B,P,B</col>
+            <col nr="8">B,P,B,P,P,B,P,P,B,P,B,P,B,P,B,P,P,P,P,B</col>
+            <col nr="9">B,U,B,B,P,B,B,U,B,P,B,P,B,U,B,P,B,B,B,B</col>
+            <col nr="10">B,P,B,P,P,B,P,P,B,P,B,P,B,P,B,P,P,P,P,B</col>
+            <col nr="11">B,P,B,P,B,B,P,B,B,P,B,P,B,P,B,B,B,B,P,B</col>
+            <col nr="12">B,P,B,P,P,B,P,P,B,P,B,P,B,P,B,P,P,P,P,B</col>
+            <col nr="13">B,P,P,B,P,B,B,P,P,P,B,P,B,P,B,P,B,B,P,B</col>
+            <col nr="14">B,P,B,P,P,B,B,B,P,B,B,P,P,P,P,P,P,P,P,B</col>
+            <col nr="15">B,P,B,P,B,B,B,P,P,P,B,P,B,B,B,B,B,B,P,B</col>
+            <col nr="16">P,P,W,P,P,P,P,P,B,P,B,P,P,P,P,P,P,P,P,P</col>
+            <col nr="17">B,P,B,B,B,B,B,P,B,P,B,P,B,B,B,B,B,B,B,B</col>
+            <col nr="18">B,P,P,P,P,P,P,P,B,P,P,P,P,P,P,P,P,P,P,B</col>
+            <col nr="19">B,B,B,B,B,B,B,B,B,B,B,B,B,B,P,B,P,B,P,B</col>
+            <col nr="20">B,B,U,P,P,P,P,P,P,P,P,P,P,B,P,B,U,B,P,B</col>
+            <col nr="21">B,P,B,B,B,B,B,B,P,B,B,B,P,B,P,B,P,B,P,B</col>
+            <col nr="22">B,P,P,P,P,P,P,B,P,P,P,B,P,B,P,B,P,B,P,B</col>
+            <col nr="23">B,P,B,B,B,B,P,B,B,P,B,B,P,B,P,B,P,B,P,B</col>
+            <col nr="24">B,U,B,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,B</col>
+            <col nr="25">B,B,B,B,B,B,B,B,B,B,B,B,B,B,P,B,B,B,B,B</col>
+        </field>
+    </level>
+    <level nr="5" width="14" height="11">
+        <spawnpoint x="1" y="9"></spawnpoint>
+        <fixedpoint x="5" y="5"></fixedpoint>
+        <ghosts number="4">
+            <ghost spawnx="5" spawny="8" color="red"></ghost>
+            <ghost spawnx="3" spawny="1" color="pink"></ghost>
+            <ghost spawnx="7" spawny="3" color="blue"></ghost>
+            <ghost spawnx="9" spawny="5" color="red"></ghost>
+        </ghosts>
+        <field>
+            <col nr="0">B,P,B,B,B,B,B,B,B,B,B</col>
+            <col nr="1">P,P,P,P,P,P,P,P,P,P,P</col>
+            <col nr="2">B,B,B,B,P,B,B,B,B,B,B</col>
+            <col nr="3">P,P,P,P,P,P,P,P,P,P,P</col>
+            <col nr="4">B,B,B,B,B,B,B,B,B,P,B</col>
+            <col nr="5">P,P,P,P,P,P,P,U,P,P,P</col>
+            <col nr="6">B,B,P,B,B,B,B,B,B,B,B</col>
+            <col nr="7">P,P,P,P,P,P,P,P,P,P,P</col>
+            <col nr="8">P,B,B,B,B,B,B,B,B,B,B</col>
+            <col nr="9">P,P,P,P,P,P,P,P,P,P,P</col>
+            <col nr="10">B,P,B,B,B,B,P,B,B,B,B</col>
+            <col nr="11">B,P,B,B,B,B,P,B,B,B,B</col>
+            <col nr="12">B,P,P,P,P,P,P,B,B,B,B</col>
+            <col nr="13">B,P,B,B,B,B,B,B,B,B,B</col>
+        </field>
+    </level>
+</Levels>

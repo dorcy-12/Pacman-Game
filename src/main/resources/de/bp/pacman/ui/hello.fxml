@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.bp.pacman.ui.controllers.HomeController">
+    <top>
+        <ImageView fitHeight="123.0" fitWidth="532.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+            <image>
+                <Image url="@../../../../Pacman-logo.png" />
+            </image>
+            <BorderPane.margin>
+                <Insets top="25.0" />
+            </BorderPane.margin>
+        </ImageView>
+    </top>
+    <center>
+        <VBox alignment="CENTER" prefHeight="147.0" prefWidth="601.0" spacing="1.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="single" onMouseClicked="#singlebuttonclicked" styleClass="tt" text="Single-Player" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Black" size="25.0" />
+                    </font>
+                </Label>
+                <Label fx:id="multi" onMouseClicked="#multibuttonclicked" styleClass="tt" text="Multi-Player" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Black" size="25.0" />
+                    </font>
+                </Label>
+                <Label fx:id="highscore" layoutX="10.0" layoutY="48.0" onMouseClicked="#highscorebuttonclicked" styleClass="tt" text="Highscore" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Black" size="25.0" />
+                    </font>
+                </Label>
+            <Label fx:id="options" onMouseClicked="#optionsbuttonclicked" styleClass="tt" text="Options" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Label>
+                <Label fx:id="about" onMouseClicked="#aboutbuttonclicked" styleClass="tt" text="About" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Black" size="25.0" />
+                    </font>
+                </Label>
+            </children>
+            <BorderPane.margin>
+                <Insets top="-6.0" />
+            </BorderPane.margin>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox alignment="TOP_CENTER" prefHeight="81.0" prefWidth="598.0" spacing="70.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER" prefHeight="90.0" prefWidth="282.0" spacing="18.0">
+                    <children>
+                        <ImageView fitHeight="37.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../icon/g1.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="42.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../icon/g2.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="36.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../icon/g3.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="38.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../icon/g4.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="36.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../icon/pacmann.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                    <padding>
+                        <Insets left="-17.0" top="-15.0" />
+                    </padding>
+                    <HBox.margin>
+                        <Insets left="-17.0" />
+                    </HBox.margin>
+                </HBox>
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"de.bp.pacman","l":"de.bp.pacman"},{"m":"de.bp.pacman","l":"de.bp.pacman.options"},{"m":"de.bp.pacman","l":"de.bp.pacman.ui"},{"m":"de.bp.pacman","l":"de.bp.pacman.ui.controllers"},{"m":"de.bp.pacman","l":"de.bp.pacman.ui.fieldtype"},{"m":"de.bp.pacman","l":"task1"}];updateSearchResults();
